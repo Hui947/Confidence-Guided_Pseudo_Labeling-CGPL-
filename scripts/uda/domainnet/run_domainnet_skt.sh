@@ -1,0 +1,36 @@
+# '../logs/pretrain/'$model'/domainnet/Sketch/domainnet_pretrain_skt_vit_base_768.pth'
+model=$1
+if [ ! -n "$1" ]
+then 
+    echo 'pelease input the model para: {deit_base, deit_small}'
+    exit 8
+fi
+if [ $model == 'deit_base' ]
+then
+    model_type='uda_vit_base_patch16_224_TransReID'
+    gpus="('0,1')"
+else
+    model='deit_small'
+    model_type='uda_vit_small_patch16_224_TransReID'
+    gpus="('0')"
+fi
+for target_dataset in 'infograph' 'quickdraw' 'painting' 'real' 'clipart'
+do
+    python train.py --config_file configs/uda.yml MODEL.DEVICE_ID $gpus \
+    OUTPUT_DIR '../logs/uda/'$model'/domainnet/sketch2'$target_dataset'/111'  \
+    MODEL.PRETRAIN_PATH '../logs/uda/'$model'/domainnet/sketch2real/111/transformer_best_model_75.2.pth' \
+    DATASETS.ROOT_TRAIN_DIR './data/domainnet/sketch.txt' \
+    DATASETS.ROOT_TRAIN_DIR2 './data/domainnet/'$target_dataset'.txt' \
+    DATASETS.ROOT_TEST_DIR './data/domainnet/'$target_dataset'.txt' \
+    DATASETS.NAMES "DomainNet" DATASETS.NAMES2 "DomainNet" \
+    MODEL.Transformer_TYPE $model_type \
+
+
+done
+
+
+
+
+
+
+
