@@ -12,13 +12,13 @@ These models are all built upon the DeiT-Base architecture, where the small mode
 
 #### Office-31
 
-| Task | A->D | A->W | D->A | D->W | W->A | W->D |
+| Task | A→D | A→W | D→A | D→W | W→A | W→D |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 |**Download Link** | [model](https://drive.google.com/file/d/1YSOT5OqR9VO_t2nEu5VKwwNnUPJTRScc/view?usp=drive_link) | [model](https://drive.google.com/file/d/1hhMnWhkbhiD_HY1wrKwZRgT7XMj6zVHu/view?usp=drive_link) | [model](https://drive.google.com/file/d/17ZAXm9Z8UF7w-KeN2XQnGRfKmFY_gFY0/view?usp=drive_link) | [model](https://drive.google.com/file/d/1N3gkoe51URC1-iXXBV7Ecbi2GDs0vwCV/view?usp=drive_link) | [model](https://drive.google.com/file/d/1QkYqw3CaVnfGVcGzPpjDNnTjlVxZIaIA/view?usp=drive_link) | [model](https://drive.google.com/file/d/1jg0VzZnTmcDba2izkj1w_ggSqlyIqOG0/view?usp=drive_link) |
 
 #### Office-Home
 
-| Task | Ar->Cl | Ar->Pr | Ar->Rw | Cl->Ar | Cl->Pr | Cl->Rw | Pr->Ar | Pr->Cl | Pr->Rw | Rw->Ar | Rw->Cl | Rw->Pr |
+| Task | Ar→Cl | Ar→Pr | Ar→Rw | Cl→Ar | Cl→Pr | Cl→Rw | Pr→Ar | Pr→Cl | Pr→Rw | Rw→Ar | Rw→Cl | Rw→Pr |
 | :------------: |  :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 |**Download Link** | [model](https://drive.google.com/file/d/1hSmk4vg-v9UIA1ZkIrGkp80lswVheDx2/view?usp=drive_link) | [model](https://drive.google.com/file/d/1X21jsAtY1lAlFJsDFvrLcxHqY7eVaWAt/view?usp=drive_link) | [model](https://drive.google.com/file/d/1d5pBO2b7ZyKuNUUqeFsRZN7WkWvBpJCo/view?usp=drive_link) | [model](https://drive.google.com/file/d/1YzhiB100WpYnq-nYg2SSpU5ETpA0g1Z2/view?usp=drive_link) | [model](https://drive.google.com/file/d/1BAJPF7aQlyLkdNNI2HnYyIhOY397_ujr/view?usp=drive_link) | [model](https://drive.google.com/file/d/1Yd9bh8WwYMfL2ARs3lKtz0CPFX-ByOUd/view?usp=drive_link) | [model](https://drive.google.com/file/d/10gi40AvJl-hDT_oDTON-g0oMvbWDe9Qe/view?usp=drive_link) | [model](https://drive.google.com/file/d/1FQnr7eAUxpER0vEC5rjy5ubd1s6k7uo7/view?usp=drive_link) | [model](https://drive.google.com/file/d/1f2Ks5Xe6_R1wYSimCmZMcy45fcXpXDcy/view?usp=drive_link) | [model](https://drive.google.com/file/d/116upnzCPzMoSHvHarfzvKQaUJMWbO3Vm/view?usp=drive_link) | [model](https://drive.google.com/file/d/1dniiAVqDylFOIkw-7B-POVOD0d2RhHLe/view?usp=drive_link) | [model](https://drive.google.com/file/d/1RZ4XPrxBZ3BNLlew-yv9M1nDoYV7BDRm/view?usp=drive_link) |
 
